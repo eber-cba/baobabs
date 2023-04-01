@@ -10,6 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
+import arbolLogo from "../../../assets/logo/arbol.png";
 import "./style.css";
 const pages = ["Home", "Talleres", "Encuentros", "Contacto"];
 
@@ -25,10 +26,15 @@ function Navbar() {
   };
 
   return (
-    <AppBar position='static'>
+    <AppBar style={{ backgroundColor: "#865DFF" }} position='static'>
       <Container maxWidth='xl'>
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <img
+            src={arbolLogo}
+            sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+            width={"70px"}
+            height={"70px"}
+          />
           <Typography
             variant='h6'
             noWrap
