@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
-import arbolLogo from "../../../assets/logo/arbol.png";
+import arbolLogo from "../../../assets/logo/zyro-image.png";
 import "./style.css";
 const pages = ["Home", "Talleres", "Encuentros", "Contacto"];
 
@@ -32,8 +32,8 @@ function Navbar() {
           <img
             src={arbolLogo}
             sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
-            width={"70px"}
-            height={"70px"}
+            width={"50px"}
+            height={"50px"}
           />
           <Typography
             variant='h6'
@@ -49,9 +49,7 @@ function Navbar() {
               color: "inherit",
               textDecoration: "none",
             }}
-          >
-            LOGO
-          </Typography>
+          ></Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
@@ -105,9 +103,7 @@ function Navbar() {
               color: "inherit",
               textDecoration: "none",
             }}
-          >
-            LOGO
-          </Typography>
+          ></Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button

@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../../components/header/navbar/Navbar";
+import Header from "../../components/header/Header.jsx";
 
 function Layout() {
   return (
     <>
-      <Navbar />
+      <Header />
     </>
   );
 }
