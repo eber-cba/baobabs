@@ -1,0 +1,54 @@
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.logo {
+  max-width: 350px;
+  margin-bottom: 10px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+
+.divider {
+  width: 70%;
+  margin: 10px 0;
+  border: none;
+  height: 2px;
+  background-color: black;
+}
+
+.club-text {
+  font-family: "ParadroidMono", monospace;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.imgHeader {
+  height: 100%;
+  width: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../assets/header/pattern.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
